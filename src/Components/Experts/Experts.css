@@ -1,0 +1,78 @@
+/* Section Container */
+.experts-section {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #f9f5f0;
+}
+
+/* Section Title */
+.experts-title {
+  font-size: 2.5rem;
+  color: #000000;
+  margin-bottom: 80px;
+  
+}
+
+/* Experts Container */
+.experts-container {
+  display: flex;
+  justify-content: center;
+  gap:160px;
+  flex-wrap: wrap;
+}
+
+/* Individual Expert Card */
+.expert-card {
+  background-color: #fff;
+  width: 330px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.expert-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Expert Image */
+.expert-image {
+  width: 300px;
+  height: 400px;
+  border-radius: 8%;
+  margin-bottom: 25px;
+  object-fit: cover;
+}
+
+/* Expert Name */
+.expert-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+/* Expert Position */
+.expert-position {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #c5a582;
+  margin-bottom: 10px;
+}
+
+/* Expert Bio */
+.expert-bio {
+  font-size: 0.9rem;
+  color: #666;
+  line-height: 1.5;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .experts-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}

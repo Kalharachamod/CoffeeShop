@@ -1,0 +1,103 @@
+/* Navbar container */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right, #2c2c2c, #403d3b); /* Dark gradient */
+  padding: 15px 30px;
+  font-family: 'Roboto', sans-serif;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  transition: all 0.3s ease-in-out;
+}
+
+/* Logo styling */
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.logo-icon {
+  font-size: 2.5rem; /* Larger icon size */
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.navbar-logo:hover .logo-icon {
+  color: #c5a582; /* Light coffee color on hover */
+}
+
+/* Navbar links */
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  transition: color 0.3s ease;
+}
+
+.navbar-links li a:hover {
+  color: #c5a582; /* Light coffee color */
+}
+
+/* Right-side container (icons) */
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Icons */
+.icon {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  color: white;
+  transition: transform 0.3s ease;
+}
+
+.icon:hover {
+  transform: scale(1.1); /* Slight scale effect on hover */
+}
+
+.cart-icon {
+  filter: invert(1);
+}
+
+.search-icon {
+  filter: invert(1);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    padding: 10px 20px;
+  }
+
+  .navbar-links {
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+  }
+
+  .navbar-right {
+    margin-top: 15px;
+  }
+
+  .logo-icon {
+    font-size: 2rem; /* Adjust logo icon size for smaller screens */
+  }
+}

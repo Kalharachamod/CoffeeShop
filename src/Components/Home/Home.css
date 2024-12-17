@@ -1,0 +1,77 @@
+.home-container {
+    position: relative;
+    width: 85%;
+    height: 85vh; /* Adjust as needed for your layout */
+    overflow: hidden;
+  }
+  
+  .background {
+    width: 100%;
+    height: 78%;
+    object-fit: cover;
+    padding-left: 600px;
+    padding-top: 70px;
+    
+  }
+  
+  .main-object {
+    position: absolute;
+    bottom: 20%;
+    right: 10%; /* Adjust position as needed */
+    width: 40%; /* Adjust size as needed */
+    z-index: 10; /* Ensure it's above the background */
+  }
+  
+  h1 {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    color: #a3631e;
+    font-size: 4rem;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    line-height: 1.5; /* Adjust spacing between lines */
+  }
+
+  h2 {
+    position: absolute;
+    top: 50%;
+    left: 32%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    color: #a3631e;
+    font-size: 1rem;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    line-height: 1.5; /* Adjust spacing between lines */
+  }
+  
+
+  .shopnow {
+    position: absolute;
+    top: 60%; /* Position it below the h2 tag */
+    left: 32%; /* Align with h2 */
+    transform: translate(-50%, -50%);
+    z-index: 3;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    background: linear-gradient(90deg, #C5A582, #e4c3a0);
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.shopnow:hover {
+    background: linear-gradient(90deg, #c87e2f, #d89a58);
+    transform: translate(-50%, -55%);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+}

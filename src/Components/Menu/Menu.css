@@ -1,0 +1,91 @@
+/* Flex Container for Horizontal Alignment */
+
+.ourmenu{
+    padding-top: 60px;
+    padding-left: 690px;
+    font-size: 1.75rem;
+}
+.card-container {
+    display: flex; /* Arrange cards horizontally */
+    justify-content: space-around; /* Space between cards */
+    gap: 20px; /* Add space between the cards */
+    padding: 20px; /* Add padding around the container */
+    flex-wrap: wrap; /* Ensure cards wrap on smaller screens */
+  }
+  
+  .card {
+    background-color: hsl(36, 43%, 85%); /* Light ash color */
+    color: #000; /* Ensure text is readable */
+    width: 300px; /* Adjust width of each card */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    font-family: Arial, sans-serif;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+  
+  /* Card Image */
+  .card-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  
+  /* Card Title */
+  .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Card Price */
+  .card-price {
+    font-size: 1rem;
+    margin-bottom: 15px;
+  }
+  
+  .current-price {
+    color: #c5a582;
+    font-weight: bold;
+  }
+  
+  .original-price {
+    text-decoration: line-through;
+    color: #888;
+    margin-left: 10px;
+  }
+  
+  /* Card Button */
+  .card-button {
+    background-color:  hsl(36, 91%, 54%);
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .card-button:hover {
+    background-color: hsl(36, 89%, 29%);
+    transform: translateY(-2px);
+  }
+  
+  /* Card Hover Effect */
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Responsive Design: Stack Cards Vertically on Small Screens */
+  @media (max-width: 768px) {
+    .card-container {
+      flex-direction: column; /* Stack cards vertically */
+      align-items: center;
+    }
+  }
+  

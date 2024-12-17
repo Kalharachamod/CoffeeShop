@@ -1,0 +1,84 @@
+/* General Footer Styling */
+.coffee-footer {
+    background-color: #000; /* Black background */
+    color: #fff;
+    padding: 30px 15px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Footer Section Styling */
+  .footer-section {
+    flex: 1;
+    min-width: 250px;
+    margin: 15px;
+  }
+  
+  .footer-section h3 {
+    font-size: 18px;
+    color: #ffcc80; /* Latte-inspired color */
+    margin-bottom: 15px;
+    text-transform: uppercase;
+  }
+  
+  .footer-section p,
+  .footer-section ul {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin: 8px 0;
+  }
+  
+  .footer-section ul li a {
+    color: #ffcc80; /* Latte-inspired color */
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .footer-section ul li a:hover {
+    color: #ffe0b2; /* Creamy highlight */
+  }
+  
+  /* Contact Information with Icons */
+  .contact-info p {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin: 10px 0;
+  }
+  
+  .contact-info p svg {
+    margin-right: 8px;
+    color: #ffcc80; /* Latte-inspired color */
+  }
+  
+  /* Footer Bottom */
+  .footer-bottom {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #bdbdbd;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .footer-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
