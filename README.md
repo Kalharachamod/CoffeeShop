@@ -23,9 +23,13 @@ Coffee Haven is a beautifully designed and fully functional coffee shop website 
 💻 Technologies Used
 
 Frontend:
+
 ~React.js: For building dynamic, stateful, and reusable components.
+
 ~React Router: For seamless navigation across different pages of the website.
+
 ~CSS3: For custom and responsive styling to make the site visually appealing and user-friendly.
+
 ~React Icons: Used for adding modern, intuitive icons to enhance the UI.
 
 📂 Project Structure
