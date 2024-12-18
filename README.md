@@ -5,12 +5,19 @@ Coffee Haven is a beautifully designed and fully functional coffee shop website 
 ✨ Features
 
 ~Home: The homepage greets visitors with a warm, inviting design and essential information about the coffee shop.
+
 ~About: Learn more about the shop’s journey, values, and dedication to crafting the perfect coffee experience.
+
 ~Menu: An interactive menu displaying a wide selection of coffee and food offerings, with detailed descriptions and pricing.
+
 ~Products: Showcase of top-selling coffee products, beans, and merchandise for coffee lovers.
+
 ~Reviews: A section dedicated to customer reviews and feedback, showcasing real-life experiences.
+
 ~Expert: Insights from coffee experts, offering tips on brewing, flavor profiles, and the art of coffee making.
+
 ~Booking: A convenient table reservation system for booking a spot at the coffee shop.
+
 ~Cart: A shopping cart feature for customers to add products and manage their orders for a smooth checkout process.
 
 💻 Technologies Used
