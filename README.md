@@ -1,7 +1,9 @@
 ☕ Coffee Haven - A Modern Coffee Shop Website
+
 Coffee Haven is a beautifully designed and fully functional coffee shop website built using React and CSS. It offers an immersive experience for coffee enthusiasts, showcasing various aspects of the shop with key features like Home, About, Menu, Products, Reviews, Expert, Booking, and Cart components.
 
 ✨ Features
+
 ~Home: The homepage greets visitors with a warm, inviting design and essential information about the coffee shop.
 ~About: Learn more about the shop’s journey, values, and dedication to crafting the perfect coffee experience.
 ~Menu: An interactive menu displaying a wide selection of coffee and food offerings, with detailed descriptions and pricing.
@@ -12,6 +14,7 @@ Coffee Haven is a beautifully designed and fully functional coffee shop website 
 ~Cart: A shopping cart feature for customers to add products and manage their orders for a smooth checkout process.
 
 💻 Technologies Used
+
 Frontend:
 ~React.js: For building dynamic, stateful, and reusable components.
 ~React Router: For seamless navigation across different pages of the website.
@@ -19,6 +22,7 @@ Frontend:
 ~React Icons: Used for adding modern, intuitive icons to enhance the UI.
 
 📂 Project Structure
+
 
 src  
 ├── components  
